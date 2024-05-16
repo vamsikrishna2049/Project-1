@@ -1,5 +1,5 @@
 # Use the official NGINX image as base
-FROM nginx:alpine
+FROM nginx
 
 # Copy custom configuration file to the container
 COPY . /usr/share/nginx/html
